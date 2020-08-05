@@ -1,7 +1,6 @@
 .product {
 	display: flex;
 	flex-direction: column;
-
 	max-height: 400px;
 	min-width: 100px;
 	background-color: #fff;

@@ -18,33 +18,39 @@ function SideNavbar() {
 	return (
 		<div id="window">
 			<div id="mySidenav" className="sidenav">
-				<a
-					// href="javascript:void(0)"
-					className="closebtn"
-					onClick={() => {
-						document.getElementById("mySidenav").style.width =
-							"0px";
-						document
-							.getElementById("window")
-							.classList.remove("backdrop");
-					}}
-				>
-					&times;
-				</a>
-				<Link href="#" className="sidenav__user" to={!user && "/login"}>
-					<span>
-						<FaUserAlt />
-					</span>
-					<span>
-						Hello,{" "}
-						{user
-							? `${user?.email.substring(
-									0,
-									user?.email.lastIndexOf("@")
-							  )}`
-							: "Sign In"}
-					</span>
-				</Link>
+				<div className="sidenav__main">
+					<a
+						// href="javascript:void(0)"
+						className="closebtn"
+						onClick={() => {
+							document.getElementById("mySidenav").style.width =
+								"0px";
+							document
+								.getElementById("window")
+								.classList.remove("backdrop");
+						}}
+					>
+						&times;
+					</a>
+					<Link
+						href="#"
+						className="sidenav__user"
+						to={!user && "/login"}
+					>
+						<span>
+							<FaUserAlt />
+						</span>
+						<span>
+							Hello,{" "}
+							{user
+								? `${user?.email.substring(
+										0,
+										user?.email.lastIndexOf("@")
+								  )}`
+								: "Sign In"}
+						</span>
+					</Link>
+				</div>
 				<a href="#" className="sidenav__category">
 					SHOP BY CATEGORY
 				</a>

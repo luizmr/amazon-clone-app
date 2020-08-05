@@ -38,8 +38,6 @@ function BannerMain() {
 						"https://images-na.ssl-images-amazon.com/images/I/71qmF0FHj7L._AC_SL1500_.jpg"
 					}
 				/>
-			</div>
-			<div className="home__row">
 				<Product
 					id="4"
 					title="Apple iPad (10.2-inch, Wi-Fi, 32GB) - Space Gray (Latest Model)"
@@ -67,8 +65,6 @@ function BannerMain() {
 						"https://images-na.ssl-images-amazon.com/images/I/81DugevkxJL._SL1500_.jpg"
 					}
 				/>
-			</div>
-			<div className="home__row">
 				<Product
 					id="7"
 					title="The Last of Us Part II - PlayStation 4"

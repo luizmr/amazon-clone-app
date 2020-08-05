@@ -9,3 +9,45 @@
 	max-width: 1500px;
 	margin: 0 auto;
 }
+
+@media (max-width: 420px) {
+	.home__row {
+		max-width: 340px !important;
+		display: grid;
+		grid-template-columns: 1fr !important;
+		z-index: 1;
+		margin: 0 auto;
+	}
+	.home {
+		max-width: 340px !important;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 820px) {
+	.home__row {
+		max-width: 740px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		z-index: 1;
+		margin: 0 auto;
+	}
+	.home {
+		max-width: 740px !important;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 1370px) {
+	.home__row {
+		max-width: 1300px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		z-index: 1;
+		margin: 0 auto;
+	}
+	.home {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}
