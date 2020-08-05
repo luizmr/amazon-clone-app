@@ -9,7 +9,7 @@
 
 Personal project built using ReactJS with Hooks, Context API and Redux. You can sign in and logout using firebase and even create a account. Also, there are some products where you can add and remove from basket, using Context API and Redux. Enjoy it.
 
-Site: https://amazonclone1.netlify.app/
+Site: https://amazonclonelmr.netlify.app/
 
 ## 🛠 Technology
 
