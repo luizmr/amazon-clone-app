@@ -10,16 +10,16 @@
 	margin: 0 auto;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 1370px) {
 	.home__row {
-		max-width: 340px !important;
+		max-width: 1300px;
 		display: grid;
-		grid-template-columns: 1fr !important;
+		grid-template-columns: 1fr 1fr;
 		z-index: 1;
 		margin: 0 auto;
 	}
 	.home {
-		max-width: 340px !important;
+		max-width: 1200px;
 		margin: 0 auto;
 	}
 }
@@ -38,16 +38,16 @@
 	}
 }
 
-@media (max-width: 1370px) {
+@media (max-width: 420px) {
 	.home__row {
-		max-width: 1300px;
+		max-width: 340px;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		z-index: 1;
 		margin: 0 auto;
 	}
 	.home {
-		max-width: 1200px;
+		max-width: 340px;
 		margin: 0 auto;
 	}
 }

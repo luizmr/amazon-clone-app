@@ -7,3 +7,10 @@
 	max-width: 700px;
 	margin: 0 auto;
 }
+
+@media (max-width: 451px) {
+	.error img {
+		max-width: 340px;
+		margin: 0 auto;
+	}
+}
