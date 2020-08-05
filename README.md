@@ -2,7 +2,7 @@
     <img alt="amazonClone" title="#amazonClone" src="./assets/gif1.gif" width="600px"/>
 </h1>
 <h1 align="center">
-    <img alt="amazonClone" title="#amazonClone" src="./assets/notfoundpage.png" width="600px"/>
+    <img alt="amazonClone" title="#amazonCloneApp" src="./assets/notfoundpage.png" width="600px"/>
 </h1>
 
 ## 💻 About project (fully responsive)
