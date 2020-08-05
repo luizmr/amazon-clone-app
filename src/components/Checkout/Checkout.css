@@ -1,0 +1,8 @@
+.checkout__title {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.checkout {
+	display: grid;
+	grid-template-columns: 3fr 342px;
+}

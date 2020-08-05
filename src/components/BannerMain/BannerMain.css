@@ -1,0 +1,11 @@
+.home__row {
+	max-width: 1500px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	z-index: 1;
+	margin: 0 auto;
+}
+.home {
+	max-width: 1500px;
+	margin: 0 auto;
+}
